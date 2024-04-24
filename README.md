@@ -7,12 +7,14 @@ $ sudo apt install libssl-dev
 $ ./configure
 $ make
 $ sudo make install 
+\n
 Deuxièmement, Apache :
 Décompresser et desarchiver le fichier : $tar -xf httpd.tar.gz
 $ cd httpd
 $ ./configure --prefix=/usr/local/apache
 $ make 
 $ sudo make install 
+\n
 Troisièmement, pour PHP 
 Meme étap décompresser et desarchiver le fichier 
 $ tar -xf php.tar.gz
